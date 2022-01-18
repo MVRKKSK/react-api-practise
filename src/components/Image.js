@@ -33,7 +33,7 @@ const Image = () => {
 
     return (
         <div>
-            <div className='button-image'><button onClick={handleChange} className="h-10 px-5 m-2 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">User Api</button></div>
+            <div className='button-image'><button onClick={handleChange} className="h-10 px-5 m-2 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">Click here for User Api</button></div>
             
             {imagedata && (
                 <div className='image-api'>
