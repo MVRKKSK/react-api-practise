@@ -9,6 +9,9 @@ const User = () => {
     { width: 1, itemsToShow: 1 },
 
   ];
+  function handleChange(){
+    window.location.href = "/imagesapi"
+  }
 
 
   const url = "https://jsonplaceholder.typicode.com/users";
@@ -24,7 +27,7 @@ const User = () => {
 
   return (
     <div className='user-main'>
-
+ <div className='button-image'><button onClick={handleChange} className="h-10 px-5 m-2 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">Images Api</button></div>
       {details && (
         <div>
           <Carousel breakPoints={breakPoints}>
