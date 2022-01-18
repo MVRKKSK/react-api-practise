@@ -4,7 +4,7 @@ import User from './components/User';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container mx-auto px-2">
       <User />
     </div>
   );
