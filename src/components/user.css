@@ -1,3 +1,9 @@
 .user-main{
     padding-top: 30px;
 }
+a{
+    transition: 0.1s ease-in-out;
+}
+a:hover{
+    color: brown;
+}
